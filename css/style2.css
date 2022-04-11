@@ -1,0 +1,39 @@
+body{
+    padding: 5%;
+}
+.section1{
+    width: 60%;
+    margin: 0 auto 0 ;
+    box-shadow: -3px -3px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.container-fluid{
+    text-align: center;
+    margin: 0 auto 0;
+}
+.photo{
+    height: 55px;
+}
+.card-body{
+    text-align: center;
+}
+
+.btn,
+.delete-btn{
+   box-shadow: -3px -3px 10px 5px rgba(0, 0, 0, 0.3);
+   width: 60%;
+   border-radius: 5px;
+   padding:10px 30px;
+   color: #3498db;
+   display: block;
+   text-align: center;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.delete-btn{
+    background-color: #e74c3c;
+ }
+ 
+ .delete-btn:hover{
+    background-color:#c0392b;
+}

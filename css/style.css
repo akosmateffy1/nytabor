@@ -1,0 +1,446 @@
+main{
+  background-color: 	#F5F5DC;
+}
+
+/* Navbar */
+.kep1{
+    height: 45px;
+    text-align: left;
+}
+
+/* Slider */
+
+.carousel-item{
+    height: 600px;
+
+}
+
+/*Bejelentkezés/Regisztráció*/
+
+.popup .overlay{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+
+.popup .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+  width: 450px;
+  height: 220px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.popup .close-btn{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+
+}
+.popup.active .overlay{
+  display: block;
+}
+
+.popup.active .content{
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.gomb{
+  float: right;
+}
+
+/*2 nagy gomb a nyitvatartás mellet! Bejelentkezés,Regisztráció.*/
+.btn{
+    width: 250px;
+    height: 78px;
+    text-align: center;
+    display: block;
+}
+/*Bejelentkezés navbar*/
+.btn1{
+    margin: 2px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    background-color: #0d6efd;
+    color: white;
+}
+/*Regisztráció navbar*/
+.btn2{
+    margin: 2px;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    background-color: #198754;
+    color: white;
+}
+
+.btn3{
+    text-align: center;
+    margin: 2px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    background-color: #198754;
+    color: white;
+}
+
+
+/*Nyitvatartás*/
+.section1{
+    width: 47%;
+    margin: 0 auto 0;
+    display: flexbox;
+    
+}
+
+.hr1{
+    margin: 0 auto 0;
+    width: 50%;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body1{
+    height: 77px;
+    text-align: center;
+    display: block;
+}
+
+/* Programok */
+.kep15{
+    width: 85px;
+}
+
+.btn19{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 15px;
+}
+
+.button5{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+}
+.kapcsolat{
+    text-align: center;
+
+}
+.email{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto 0;
+    border-radius: 15px;
+}
+
+.btn6{
+    width: 100px;
+    height: 50px;
+    border-color:red ;
+    border-radius: 10px;
+    background-color: #0d6efd;
+}
+.msg{
+    text-align: center;
+    margin:0 auto 0;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+.kuldes{
+    text-align: center;
+    margin: 30px;
+}
+.button6{
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0d6efd;
+    color: white;
+}
+.section2{
+    width: 47%;
+    background-position: center;
+    margin: 0 auto 0;
+    display: flexbox;
+}
+
+.hr2{
+    margin: 0 auto 0;
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+}
+.accordion {
+    width: 47%;
+    max-width: 1000px;
+    background-position: center;
+    margin: 2rem auto;
+  }
+  .accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+  
+  @media(max-width:767px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
+
+/* Galéria*/
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Központi elérhetőségeink*/
+
+/*Sajtókapcsolat*/
+.card-text5{
+    text-align: center;
+}
+.btn8{
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    margin:2px;
+    
+}
+.bx{
+    background-size: 50px;
+}
+
+
+/*Vállalati adomány*/
+.btn9{
+    text-align: center;
+    width: 85px;
+    height: 80px;
+    background-color: white;
+    border-radius: 15px;
+    margin:2px;
+    
+}
+/**/
+
+
+
+/*email*/
+.btn10{
+    border-radius: 15px;
+    width: 80px;
+    border: none;
+    height: 30px;
+    text-align: center;
+}
+
+.email1{
+    width: 270px;
+    height: 50px;
+    border-radius: 15px;
+    float: right;
+    margin:2px;
+}
+
+/* Footer */
+.footer-clean {
+    padding:50px 0;
+    background-color:#fff;
+    color:#4b4c4d;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+  
+  /* Credit to https://epicbootstrap.com/snippets/footer-with-columns */
